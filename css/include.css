@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{position: relative;font-size: 15px;background:#3D3C3C }
+#header h1{position: absolute; text-align: center; left: 50%; margin-left: -78; border-radius: 50%; height: 156px; width: 156px; background:#fff url(../images/hLogo.png) no-repeat 50%; text-indent: -9999px;}
+#header h1 a{display: block; height: 100%}
+
+.hTop{background: #3D3C3C; height: 70px;}
+
+.utill{line-height: 70px; float: right; display: inline-block;}
+.utill li{float: left;}
+.utill li:after{content: ""; display: inline-block; width: 1px; height: 11px; background: #fff; margin: 0 10px;}
+.utill li:last-child:after{display: none;}
+.utill li a{color: #fff;}
+.utill li img{}
+
+.hBottom{background: #B52629; height: 87px; text-align: center;}
+.gnb{bottom: 10px; left: 560px; display: inline-block;}
+.gnb li{float: left; padding: 60px 110px 0}
+.gnb li a{display: block; color: #fff; }
+.gnb li:last-child a{color: #E6AE46;}
+
+/*푸터*/
+#footer{background: #3F4342; color: #fff; margin-top: 275px;}
+
+    .fTop{border-bottom: 2px solid #C63D3D;  height: 100px;}
+    .fTop h1{float: left;vertical-align: middle; margin: 0 60px;padding-top: 35px;}
+    .fNev{text-align: center;}
+        .fNev li{float: left; display: inline-block; padding: 22px 60px 0}
+        .fNev li a{color: #fff;}
+        .fNev li p{font-size: 20px; }
+        .fNev li span{display: block; font-size:17px;font-weight: 200;}
+
+    .fMiddle{height: 300px; padding-left: 100px;}
+        .fList{float: left; width: 25%}
+        .fList dt{margin: 30px 0; font-size: 15px;}
+        .fList dd{margin: 0;font-weight: 200; font-size: 13px; margin-bottom: 10px;}
+        .fList dd a{color: #fff;}
+
+    .fBottom{background:#302F2F; font-weight: 100; padding: 10px;}
+    .fBottom p{font-size: 11px; display: block;}
+    .fBottom span:last-child{color: #ccc;}
+        .fMark{float: left;}
+        .fMark p{padding-top: 15px; background: url(../images/fMark.png) no-repeat 0px 5px; padding-left:70px; height: 50px; width: 250px;}
+
+        .fbInfo{text-align: right; display: inline-block; vertical-align: middle;float: right;}
+        .fbInfo a{display: inline-block;color: #fff; font-weight: 300; margin-right:3px;}
+        .fbInfo p{font-size: 11px;margin-right: 10px; }

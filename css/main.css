@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+.mainSlider{position: relative;overflow: hidden; height: 900px;}
+.mainBg{position: absolute; left: 50%; margin-left: -960px;}
+.mainSlider p{position: absolute; font-size: 60px; color: #fff; top:400px; left: 50%;margin-left: -600px; font-weight: 100;}
+/*ball*/
+.mainSlider img{position: absolute;right: 50%; margin-right: -800px; top:100px;}
+
+/*컨텐츠1*/
+.mainCon01{position: relative; height: 600px; margin-bottom: 270px; background: url(../images/con01Neonline.png) 0 70%; background-repeat:repeat-x;}
+.orangeBall{position: absolute; top: -250px; left: 50%; margin-left: -900px;}
+    /*이미지*/
+    .con01Img{display: inline-block; position: relative; height: 600px; width: 40%;float: left;} 
+    .con01Img img{position: absolute; top: 45%; left: 60%;}
+    /*신발정보*/
+    .con01Info{height: 600px; background: #212020; width: 60%; padding-left: 300px; box-sizing: border-box; float: right;}
+    .con01Info h2{margin-top: 120px; color: #fff; font-size: 80px;}
+    .con01Info p{font-size: 30px; display: inline-block;}
+    .con01Info p:first-child{color: #CFE200;}
+    .con01Info p:last-child{color:#8A8686;font-weight: 100}
+    .con01Info a{font-size: 30px; color: #fff; font-weight: 100; border: #fff solid 1px; border-radius: 25px; width: 200px; display: block; text-align: center; height: 50px; margin-top: 80px;}
+.con01Text{width: 400px;}
+
+/*컨텐츠2*/
+.mainCon02{}
+.con02{overflow: hidden;}
+    .con02 img{float: right; width:50%; height: 450px;}
+        .con02Info{display: inline-block; width: 50%; padding: 180px 0; text-align: center;}
+        .con02Info p{display: inline-block; font-size:60px; font-weight: 500; vertical-align: middle}
+        .con02Info span{color: #525050;}
+        .con02Info a{display:inline-block; background: url(../images/con02Blackplus.png) no-repeat; width: 60px; height: 60px; text-indent: -9999px; vertical-align: middle;}
+
+        .con0201Info a{background: url(../images/con02Redplus.png) no-repeat;margin-right: 10px;}
+        .con0201Info span{color: red;}
+    /*crv*/
+    .con0202>img{float: left;}
+        .con0202Info{float: right;}
+        .con0202Info a{margin-left: 10px;}
+    /*hometraining*/
+    .con0203>img{height: 630px;}
+        .con0203Info{padding: 216px 70px; text-align: right; box-sizing: border-box;}
+        .con0203Info p{line-height: 60px}
+        .con0203Info span{display: block;}
+        .con0203Info a{display: block; margin-left: 87%; font-size: 0; margin-top: 15px;}
+
+.con02 a:hover{background: url(../images/con02blackplusHover.png) no-repeat; transition: all 0.1s; }
+.con0201Info a:hover{background: url(../images/con02redplusHover.png) no-repeat;}
+
+/*컨텐츠3*/
+.mainCon03{position: relative; height: 850px; margin: 270px 0;}
+    /*배경,이미지*/
+    .con03Bg{float: right; width: 50%;height: 100%; background: url(../images/con03Bg.png) no-repeat; text-indent: -9999px;}
+    .con03img img{position: absolute; bottom: 30px; right: 55%;}
+    /*신발정보*/
+    .con03Info{height: 844px; background: #210C05; width: 50%;  box-sizing: border-box; float: left; text-align: right; padding-right:50px;}
+    .con03Info h2{margin-top: 100px; color: #fff; font-size: 80px;}
+    .con03Txt p{display:block; font-size: 50px;}
+    .con03Txt .sundown{color: #C63D3D;}
+    .con03Txt .work{color:#c1c0be;font-weight: 100; font-size: 20px; }
+    .con03Info a{font-size: 30px; color: #fff; font-weight: 100; border: #fff solid 1px; border-radius: 25px; width: 200px; display: block; text-align: center; height: 50px; margin-top: 80px; float: right;}
+
+/*컨텐츠4*/
+.mainCon04{}
+.mainCon04 h2{font-size: 50px; margin-bottom: 200px; }
+
+    .con04List{}
+    .con04List li{width: 350px; height: 400px;float: left; margin-bottom: 180px; margin-right: 56px;}
+    .con04List li:nth-child(3n){margin-right: 0;}
+    .con04List li p{font-size: 20px; background: url(../images/con04Line.png) no-repeat 50% -20%; text-align: center;  width: 100%; font-weight: 500; color: #413f3f; padding-top: 35px; margin-top: 30px;}
+  
+/*컨텐츠5*/
+.mainCon05{background: url(../images/con05Bg.png) no-repeat; height: 1230px; color: #fff; position: relative; margin-top: 270px;}
+.mainCon05 h2{font-weight: 200; font-size: 50px;}
+.mainCon05 p{font-weight: 100; font-size: 15px; float: left; margin-right: 10px;}
+.mainCon05>a{color: #fff; background: #1A1A1A; display: block; width:280px; height: 80px; font-size: 30px; text-align: center; line-height: 80px; position: absolute; bottom: 80px; left:300px;}
+
+    .con05Txt{padding-top: 15%; padding-left: 25%; float: left;}
+    .con05List{float: right; margin: 80px 0; position: absolute; right: 0;}
+    /*컨5제품이미지*/
+    .con05List li{margin-bottom: 40px;}
+    .con05List li a{display: block; height: 100%}
